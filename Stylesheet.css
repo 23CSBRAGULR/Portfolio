@@ -1,0 +1,89 @@
+body {
+    font-family: 'Lexend', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle at top left, #6a6a6a, #2f2f2f);
+    color: #e4e4e4;
+    font-size: 18px;
+}
+
+header {
+    background: rgba(30, 30, 30, 0.75);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #7a7a7a;
+}
+
+section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 2rem auto;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+h2 {
+    background: rgb(32, 32, 32);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: rgba(30, 30, 30, 0.75);
+    color: white;
+    font-size: 0.9rem;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 2rem;
+}
+
+ul {
+    line-height: 1.6;
+}
+    
+.contactInfo {
+    text-decoration: none;
+    color: white;
+}
+
+.contactInfo:hover {
+    color:rgba(30, 30, 30, 0.75);
+}
+
+.contents {
+    padding-left: 25px;
+}
