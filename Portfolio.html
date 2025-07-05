@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="Stylesheet.css">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ragul Raguraman | Portfolio</title>
+        <link rel="stylesheet" href="styles.css" />
+        <style>
+            body {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f4f4f4;
+                color: #333;
+            }
+            header {
+                background-color: #1e1e1e;
+                color: white;
+                padding: 2rem;
+                text-align: center;
+            }
+            nav ul {
+                list-style-type: none;
+                padding: 0;
+            }
+            nav ul li {
+                display: inline;
+                margin: 0 15px;
+            }
+            nav ul li a {
+                color: #61dafb;
+                text-decoration: none;
+                font-weight: bold;
+            }
+            section {
+                padding: 2rem;
+                max-width: 800px;
+                margin: auto;
+            }
+            footer {
+                text-align: center;
+                padding: 1rem;
+                background-color: #1e1e1e;
+                color: white;
+                font-size: 0.9rem;
+            }
+            ul {
+                line-height: 1.6;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <header>
+            <h1>Ragul Raguraman</h1>
+            <p>B.Sc. Computer Science Student | Aspiring Software Developer</p>
+            <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            </nav>
+        </header>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+            I'm Ragul Raguraman, a second-year Computer Science student at RVS College of Arts and Science,
+            expected to graduate in 2026. I'm passionate about programming, especially Java and problem solving.
+            I enjoy taking on logical challenges and building solutions with purpose.
+            </p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Turf Booking Website (Team Project)</strong> - In progress. A web platform to book turf slots online.</li>
+                <li><strong>Complaint Management System</strong> - Python project for tracking and resolving user complaints.</li>
+                <li><strong>Java Integer Reversal</strong> - A clean Java program to reverse integers of any digit length.</li>
+            </ul>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <ul>
+                <li>Salesperson at Arasu Medicals (2023)</li>
+                <li>Staff at VR Clinic's Medical Shop (2024–2025)</li>
+                <li>Java Premier League Leader: 1st place (2024), 2nd place (2025)</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: ragul.raguraman@example.com</p>
+            <p>LinkedIn: <a href="#">linkedin.com/in/ragulraguraman</a></p>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Ragul Raguraman. Built with the support of AI—but understood by me.</p>
+        </footer>
+
+        <script>
+            const navLinks = document.querySelectorAll('nav a');
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const section = document.querySelector(this.getAttribute('href'));
+                    section.scrollIntoView({ behavior: 'smooth' });
+                });
+            });
+        </script>
+</body>
+</html>
