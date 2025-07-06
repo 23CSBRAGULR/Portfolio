@@ -89,12 +89,16 @@ ul {
     line-height: 1.6;
 }
     
-.contactInfo, .projectInfo {
+.contactInfo, .projectInfo, .experienceInfo {
     text-decoration: none;
     color: white;
 }
 
-.contactInfo:hover, .projectInfo:hover {
+.experienceInfo {
+  color: #e4e4e4;
+}
+
+.contactInfo:hover, .projectInfo:hover, .experienceInfo:hover {
     color:rgba(30, 30, 30, 0.75);
     transition: color 0.2s ease;
 }
