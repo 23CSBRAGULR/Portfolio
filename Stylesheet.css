@@ -30,7 +30,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #b2b2b2;
+    color: #919191;
     text-decoration: none;
     font-weight: bold;
     font-size: large;
@@ -89,12 +89,12 @@ ul {
     line-height: 1.6;
 }
     
-.contactInfo {
+.contactInfo, .projectInfo {
     text-decoration: none;
     color: white;
 }
 
-.contactInfo:hover {
+.contactInfo:hover, .projectInfo:hover {
     color:rgba(30, 30, 30, 0.75);
     transition: color 0.2s ease;
 }
