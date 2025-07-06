@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background: radial-gradient(circle at top left, #6a6a6a, #2f2f2f);
-    color: #e4e4e4;
+    color: #dadada;
     font-size: 18px;
 }
 
@@ -65,7 +65,7 @@ h2 {
     display: inline-block;
     text-decoration: none;
     font-weight: normal; 
-    color: #e4e4e4;
+    color: white;
 }
 
 .educatedAt:hover {
@@ -92,10 +92,6 @@ ul {
 .contactInfo, .projectInfo, .experienceInfo {
     text-decoration: none;
     color: white;
-}
-
-.experienceInfo {
-  color: #e4e4e4;
 }
 
 .contactInfo:hover, .projectInfo:hover, .experienceInfo:hover {
